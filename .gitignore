@@ -1,0 +1,9 @@
+__pycache__/
+data/
+checkpoint/
+*.pth
+*.pt
+*.png
+*.jpg
+*.csv
+*.npy
