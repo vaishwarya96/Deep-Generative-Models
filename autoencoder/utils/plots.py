@@ -16,6 +16,7 @@ def plot_embeddings(embeddings, labels):
         s=3,
     )
     plt.colorbar()
+    plt.title("Latent Space")
     plt.show()
 
 def plot_generated_imgs(embeddings, labels, model, feat_shape):
