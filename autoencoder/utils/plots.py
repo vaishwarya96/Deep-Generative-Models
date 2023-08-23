@@ -68,7 +68,7 @@ def plot_generated_imgs(embeddings, labels, model, feat_shape):
         ax.imshow(images[i, :, :], cmap="Greys")
     plt.show()
 
-
+    '''
     # Colour the embeddings by their label (clothing type - see table)
     figsize = 12
     grid_size = 15
@@ -109,6 +109,7 @@ def plot_generated_imgs(embeddings, labels, model, feat_shape):
         ax.axis("off")
         ax.imshow(images[i, :, :], cmap="Greys")
     plt.show()
+    '''
 
 def plot_reconstructed_imgs(test_ds, generated_imgs):
 
