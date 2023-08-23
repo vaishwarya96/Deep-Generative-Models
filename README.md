@@ -34,3 +34,17 @@ Note: By default, the network trains on the FashionMNIST dataset. If you want to
 python3 main.py --dataset MNIST
 ```
 Similarly, you can adjust the hyperparameters by passing the values in the arguments. Check the file `main.py` for the list of arguments and their default values.
+
+## Variational Autoencoder
+```bash
+cd vae/
+```
+
+For training, run the following command"
+```bash
+python3 main.py
+```
+For inference, run
+```bash
+python3 main.py --test
+```
