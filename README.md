@@ -29,3 +29,8 @@ For inference, run the following command:
 ```bash
 python3 main.py --test
 ```
+Note: By default, the network trains on the FashionMNIST dataset. If you want to train on other datasets, you can do so by changing the argument. For example, to train on MNIST, run the following command:
+```bash
+python3 main.py --dataset MNIST
+```
+Similarly, you can adjust the hyperparameters by passing the values in the arguments. Check the file `main.py` for the list of arguments and their default values.
