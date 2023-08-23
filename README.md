@@ -40,7 +40,7 @@ Similarly, you can adjust the hyperparameters by passing the values in the argum
 cd vae/
 ```
 
-For training, run the following command"
+For training, run the following command:
 ```bash
 python3 main.py
 ```
@@ -55,9 +55,15 @@ cd gan/
 ```
 To train on CelebA, download the dataset from <a href="http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html" target="_blank">this site</a>. The dataset will download as a file named `img_align_celeba.zip`. Once downloaded, create a directory named `data/celeba` and extract the zip file into that directory.
 
-The structure is as follows:
+The structure is `data/celeba/img_align_celeba/(Images)`
 
-data/celeba
-    -> img_align_celeba
-        (Images)
+For training, run the command:
+```bash
+python3 main.py
+```
+For inference, run
+```bash
+python3 main.py --test
+```
+
 
